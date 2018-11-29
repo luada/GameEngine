@@ -1,0 +1,14 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "MenuCtrl.h"
+
+namespace GUI
+{
+
+	class PopupMenu : public MenuCtrl
+	{
+	public:
+		virtual void SetVisible(bool value);
+	};
+}

@@ -1,0 +1,29 @@
+typedef char int8;
+typedef short int16;
+typedef int int32;
+typedef nullptr NULL;
+typedef unsigned char uint8;
+typedef unsigned short uint16;
+typedef unsigned int uint32;
+typedef unsigned int uint;
+
+typedef unsigned int Char;
+typedef int size_type;
+typedef size_type size_t;
+typedef char code_point;
+
+
+typedef TPoint<int> IntPoint;
+typedef TPoint<float> FloatPoint;
+
+typedef TSize<int> IntSize;
+typedef TSize<float> FloatSize;
+
+typedef TRect<int> IntRect;
+typedef TRect<float> FloatRect;
+
+typedef TCoord<int> IntCoord;
+typedef TCoord<float> FloatCoord;
+
+typedef std::map<std::string, std::string> MapString;
+typedef std::vector<std::string> VectorString;

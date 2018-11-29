@@ -1,0 +1,5 @@
+//This file is created by AutoWrapLua.exe
+
+
+$#include "ScriptUnit.h"
+$pfile	"pkg\script\ScriptUnit.pkg"

@@ -1,0 +1,18 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "VScroll.h"
+
+namespace GUI
+{
+
+	class HScroll : public VScroll
+	{
+	public:
+		virtual int GetLineSize();
+
+		virtual void SetTrackSize(int value);
+
+		virtual int GetTrackSize();
+	};
+}

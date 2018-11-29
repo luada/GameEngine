@@ -1,0 +1,66 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Edit.h"
+$#include "List.h"
+$#include "Any.h"
+$#include "EventPair.h"
+$#include "ControllerFadeAlpha.h"
+
+namespace GUI
+{
+
+	class ComboBox : public Edit
+	{
+	public:
+		size_t GetItemCount() const;
+
+		void InsertItem(size_t index, const UString& name, Widget* value = nullptr);
+
+		void AppendItem(const UString& name, Widget* value = nullptr);
+
+		void RemoveItem(size_t index);
+
+		void RemoveAllItems();
+
+		size_t FindItemIndexWith(const UString& name);
+
+		size_t GetIndexSelected();
+
+		void SetIndexSelected(size_t index);
+
+		void ClearIndexSelected();
+
+		void SetItemData(size_t index, Widget* value);
+
+		void ClearItemData(size_t index);
+
+		Widget* GetItemData(size_t index);
+
+		void SetItemName(size_t index, const UString& name);
+
+		const UString& GetItemName(size_t index);
+
+		void BeginToItem(size_t index);
+
+		void BeginToItemFirst();
+
+		void BeginToItemLast();
+
+		void BeginToItemSelected();
+
+		void SetComboModeDrop(bool value);
+
+		bool GetComboModeDrop();
+
+		void SetSmoothShow(bool value);
+
+		bool GetSmoothShow();
+
+		void SetMaxListHeight(int value);
+
+		int GetMaxListHeight();
+
+		virtual void SetProperty(const std::string& key, const std::string& value);
+	};
+}

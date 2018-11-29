@@ -1,0 +1,28 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include <string.h>
+
+namespace GUI
+{
+
+	struct WidgetStyle
+	{
+
+		enum Enum
+		{
+			Child,
+			Popup,
+			Overlapped,
+			MAX
+		};
+
+		static WidgetStyle Parse(const std::string& value);
+
+		WidgetStyle();
+
+		WidgetStyle(Enum value);
+
+		std::string Print() const;
+	};
+}

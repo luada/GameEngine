@@ -1,0 +1,13 @@
+$#include "A.h"
+
+class B: public A// , public ScriptUnit
+{
+public:
+	B();
+
+	virtual ~B();
+
+	void setB(int v);
+
+	int getB();
+};

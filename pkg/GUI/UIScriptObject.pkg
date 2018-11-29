@@ -1,0 +1,25 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "WidgetEvent.h"
+$#include "script/ScriptUnit.h"
+$#include "common/Macro.h"
+
+namespace GUI
+{
+
+	class UIScriptObject : public CScriptObject , public WidgetEvent
+	{
+	public:
+		bool IsScriptObjValid();
+
+		int GetScriptObjID() const;
+
+		void SetScriptObjID(int objID);
+
+		bool CreateScriptObj(std::string scriptClass);
+
+		void SetScriptClass(std::string scriptClass);
+
+		const std::string& GetScriptClass();
+	};
+}

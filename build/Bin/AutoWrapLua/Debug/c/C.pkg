@@ -1,0 +1,13 @@
+$#include "B.h"
+
+class C: public B
+{
+public:
+	C();
+
+	~C();
+
+	void setC(int v);
+
+	int getC();
+};

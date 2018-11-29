@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GUI>
+	<Tag name="GUI_MessageBox_Ok">Ok</Tag>
+	<Tag name="GUI_MessageBox_Yes">Yes</Tag>
+	<Tag name="GUI_MessageBox_No">No</Tag>
+	<Tag name="GUI_MessageBox_Abort">Abort</Tag>
+	<Tag name="GUI_MessageBox_Retry">Retry</Tag>
+	<Tag name="GUI_MessageBox_Ignore">Ignore</Tag>
+	<Tag name="GUI_MessageBox_Cancel">Cancel</Tag>
+	<Tag name="GUI_MessageBox_Try">Try</Tag>
+	<Tag name="GUI_MessageBox_Continue">Continue</Tag>
+</GUI>

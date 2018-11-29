@@ -1,0 +1,125 @@
+//This file is created by AutoWrapLua.exe
+
+
+$#include "Align.h"
+$pfile	"pkg\GUI\Align.pkg"
+
+$#include "Button.h"
+$pfile	"pkg\GUI\Button.pkg"
+
+$#include "ClipboardManager.h"
+$pfile	"pkg\GUI\ClipboardManager.pkg"
+
+$#include "Colour.h"
+$pfile	"pkg\GUI\Colour.pkg"
+
+$#include "ComboBox.h"
+$pfile	"pkg\GUI\ComboBox.pkg"
+
+$#include "Edit.h"
+$pfile	"pkg\GUI\Edit.pkg"
+
+$#include "Gui.h"
+$pfile	"pkg\GUI\Gui.pkg"
+
+$#include "HScroll.h"
+$pfile	"pkg\GUI\HScroll.pkg"
+
+$#include "InputDefine.h"
+$pfile	"pkg\GUI\InputDefine.pkg"
+
+$#include "ItemBox.h"
+$pfile	"pkg\GUI\ItemBox.pkg"
+
+$#include "LanguageManager.h"
+$pfile	"pkg\GUI\LanguageManager.pkg"
+
+$#include "LayerManager.h"
+$pfile	"pkg\GUI\LayerManager.pkg"
+
+$#include "LayoutManager.h"
+$pfile	"pkg\GUI\LayoutManager.pkg"
+
+$#include "List.h"
+$pfile	"pkg\GUI\List.pkg"
+
+$#include "ListBox.h"
+$pfile	"pkg\GUI\ListBox.pkg"
+
+$#include "ListCtrl.h"
+$pfile	"pkg\GUI\ListCtrl.pkg"
+
+$#include "MenuBar.h"
+$pfile	"pkg\GUI\MenuBar.pkg"
+
+$#include "MenuCtrl.h"
+$pfile	"pkg\GUI\MenuCtrl.pkg"
+
+$#include "MenuItem.h"
+$pfile	"pkg\GUI\MenuItem.pkg"
+
+$#include "Message.h"
+$pfile	"pkg\GUI\Message.pkg"
+
+$#include "MessageStyle.h"
+$pfile	"pkg\GUI\MessageStyle.pkg"
+
+$#include "MultiList.h"
+$pfile	"pkg\GUI\MultiList.pkg"
+
+$#include "PopupMenu.h"
+$pfile	"pkg\GUI\PopupMenu.pkg"
+
+$#include "Progress.h"
+$pfile	"pkg\GUI\Progress.pkg"
+
+$#include "ScrollView.h"
+$pfile	"pkg\GUI\ScrollView.pkg"
+
+$#include "StaticImage.h"
+$pfile	"pkg\GUI\StaticImage.pkg"
+
+$#include "StaticText.h"
+$pfile	"pkg\GUI\StaticText.pkg"
+
+$#include "Tab.h"
+$pfile	"pkg\GUI\Tab.pkg"
+
+$#include "TabItem.h"
+$pfile	"pkg\GUI\TabItem.pkg"
+
+$#include "TCoord.h"
+$pfile	"pkg\GUI\TCoord.pkg"
+
+$#include "TPoint.h"
+$pfile	"pkg\GUI\TPoint.pkg"
+
+$#include "TRect.h"
+$pfile	"pkg\GUI\TRect.pkg"
+
+$#include "TSize.h"
+$pfile	"pkg\GUI\TSize.pkg"
+
+$#include "UIScriptObject.h"
+$pfile	"pkg\GUI\UIScriptObject.pkg"
+
+$#include "UString.h"
+$pfile	"pkg\GUI\UString.pkg"
+
+$#include "VScroll.h"
+$pfile	"pkg\GUI\VScroll.pkg"
+
+$#include "Widget.h"
+$pfile	"pkg\GUI\Widget.pkg"
+
+$#include "WidgetDefines.h"
+$pfile	"pkg\GUI\WidgetDefines.pkg"
+
+$#include "WidgetStyle.h"
+$pfile	"pkg\GUI\WidgetStyle.pkg"
+
+$#include "WidgetUserData.h"
+$pfile	"pkg\GUI\WidgetUserData.pkg"
+
+$#include "Window.h"
+$pfile	"pkg\GUI\Window.pkg"

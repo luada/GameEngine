@@ -1,0 +1,24 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Enumerator.h"
+$#include <vector>
+$#include <map>
+
+namespace GUI
+{
+
+	class VectorWidgetPtr : public std::vector<Widget*>
+	{
+	public:
+		size_type Size() const;
+
+		Widget*& operator[](size_type Pos);
+
+		void Resize(size_type Newsize);
+
+		void Reserve(size_type Count);
+
+		void Clear();
+	};
+}

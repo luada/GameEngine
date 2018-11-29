@@ -1,0 +1,11 @@
+//This file is created by AutoWrapLua.exe
+
+
+$#include "a.h"
+$pfile	"a.pkg"
+
+$#include "b.h"
+$pfile	"b.pkg"
+
+$#include "c\C.h"
+$pfile	"c\C.pkg"

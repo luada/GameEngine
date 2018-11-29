@@ -1,0 +1,37 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Align.h"
+$#include "Widget.h"
+
+namespace GUI
+{
+
+	class Progress : public Widget
+	{
+	public:
+		void SetProgressRange(size_t value);
+
+		size_t GetProgressRange();
+
+		void SetProgressPosition(size_t value);
+
+		size_t GetProgressPosition();
+
+		void SetProgressAutoTrack(bool value);
+
+		bool GetProgressAutoTrack();
+
+		void SetProgressStartPoint(Align value);
+
+		Align GetProgressStartPoint();
+
+		void SetPosition(int left, int top);
+
+		void SetSize(int width, int height);
+
+		void SetCoord(int left, int top, int width, int height);
+
+		virtual void SetProperty(const std::string& key, const std::string& value);
+	};
+}

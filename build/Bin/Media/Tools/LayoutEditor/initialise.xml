@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUI type="List">
+	<List file="widgets.xml"/>
+	<List file="values.xml"/>
+	<List file="ignore.xml"/>
+	<List file="editor_plugin.xml"/>
+	<List file="external_resources.xml"/>
+</GUI>

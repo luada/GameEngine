@@ -1,0 +1,25 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Instance.h"
+$#include "XmlDocument.h"
+$#include "WidgetDefines.h"
+$#include "Gui.h"
+
+namespace GUI
+{
+
+	class LayoutManager
+	{
+	public:
+		static LayoutManager& Instance();
+
+		VectorWidgetPtr& Load(const std::string& file);
+
+		VectorWidgetPtr& LoadLayout(const std::string& file, const std::string& prefix = "", Widget* parent = nullptr);
+
+		void UnloadLayout(VectorWidgetPtr& widgets);
+
+		Widget* FindWidget(VectorWidgetPtr& widgets, const std::string name);
+	};
+}

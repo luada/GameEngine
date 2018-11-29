@@ -1,0 +1,45 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Button.h"
+$#include "MenuCtrl.h"
+
+namespace GUI
+{
+
+	class MenuItem : public Button
+	{
+	public:
+		virtual void SetCaption(const UString& value);
+
+		void SetItemName(const UString& value);
+
+		const UString& GetItemName();
+
+		void SetItemData(Widget* value);
+
+		Widget* GetItemDataEx();
+
+		void RemoveItem();
+
+		void SetItemId(const std::string& value);
+
+		const std::string& GetItemId();
+
+		size_t GetItemIndex();
+
+		MenuCtrl* CreateItemChild();
+
+		void SetItemType(MenuItemType value);
+
+		MenuItemType GetItemType();
+
+		void SetItemChildVisible(bool value);
+
+		MenuCtrl* GetMenuCtrlParent();
+
+		MenuCtrl* GetItemChild();
+
+		virtual void SetProperty(const std::string& key, const std::string& value);
+	};
+}

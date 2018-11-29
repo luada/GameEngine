@@ -1,0 +1,139 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Any.h"
+$#include "ICroppedRectangle.h"
+$#include "ISubWidgetRect.h"
+$#include "ISubWidgetText.h"
+$#include "LayerItem.h"
+$#include "WidgetUserData.h"
+$#include "IWidgetCreator.h"
+$#include "ResourceSkin.h"
+$#include "IObject.h"
+$#include "UIScriptObject.h"
+
+namespace GUI
+{
+
+	class Widget : public UIScriptObject , public IObject , public ICroppedRectangle , public LayerItem , public UserData , public IWidgetCreator , public delegates::IDelegateUnlink
+	{
+	public:
+		Widget* CreateWidgetT(const std::string& type, const std::string& skin, int left, int top, int width, int height, Align align, const std::string& name = "");
+
+		Widget* CreateWidgetRealT(const std::string& type, const std::string& skin, float left, float top, float width, float height, Align align, const std::string& name = "");
+
+		const std::string& GetName() const;
+
+		void SetPosition(int left, int top);
+
+		void SetSize(int width, int height);
+
+		void SetCoord(int left, int top, int width, int height);
+
+		void SetRealPosition(float left, float top);
+
+		void SetRealSize(float width, float height);
+
+		void SetRealCoord(float left, float top, float width, float height);
+
+		virtual void SetVisible(bool value);
+
+		virtual void SetAlign(Align value);
+
+		virtual void SetCaption(const UString& value);
+
+		virtual const UString& GetCaption();
+
+		void SetAlpha(float value);
+
+		float GetAlpha();
+
+		void SetInheritsAlpha(bool value);
+
+		bool IsInheritsAlpha();
+
+		bool SetState(const std::string& value);
+
+		void SetColour(const Colour& value);
+
+		bool IsRootWidget();
+
+		Widget* GetParent();
+
+		size_t GetChildCount();
+
+		Widget* GetChildAt(size_t index);
+
+		Widget* FindWidget(const std::string& name);
+
+		void SetNeedKeyFocus(bool value);
+
+		bool IsNeedKeyFocus();
+
+		void SetNeedMouseFocus(bool value);
+
+		bool IsNeedMouseFocus();
+
+		void SetInheritsPick(bool value);
+
+		bool IsInheritsPick();
+
+		void SetMaskPick(const std::string& filename);
+
+		virtual void SetEnabled(bool value);
+
+		void SetEnabledSilent(bool value);
+
+		bool IsEnabled();
+
+		void SetPointer(const std::string& value);
+
+		const std::string& GetPointer();
+
+		const std::string& GetLayerName();
+
+		Widget* GetClientWidget();
+
+		void SetNeedToolTip(bool value);
+
+		bool GetNeedToolTip();
+
+		void SetEnableToolTip(bool value);
+
+		bool GetEnableToolTip();
+
+		void DetachFromWidget(const std::string& layer = "");
+
+		void AttachToWidget(Widget* parent, WidgetStyle style = WidgetStyle::Child, const std::string& layer = "");
+
+		void ChangeWidgetSkin(const std::string& skinname);
+
+		void SetWidgetStyle(WidgetStyle style, const std::string& layer = "");
+
+		WidgetStyle GetWidgetStyle();
+
+		virtual void SetProperty(const std::string& key, const std::string& value);
+
+		void SetCaptionWithNewLine(const std::string& value);
+
+		IntCoord GetTextCoord();
+
+		IntSize GetTextSize();
+
+		void SetFontName(const std::string& font);
+
+		const std::string& GetFontName();
+
+		void SetFontHeight(int height);
+
+		int GetFontHeight();
+
+		void SetTextAlign(Align align);
+
+		Align GetTextAlign();
+
+		void SetTextColour(const Colour& colour);
+
+		const Colour& GetTextColour();
+	};
+}

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GUI type="Layout">
+    <Widget type="Button" skin="Button" position="160 272 144 64" layer="Back">
+        <Property key="Script_Class" value="Button"/>
+    </Widget>
+</GUI>

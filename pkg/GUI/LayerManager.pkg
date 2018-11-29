@@ -1,0 +1,31 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Instance.h"
+$#include "Enumerator.h"
+$#include "XmlDocument.h"
+$#include "IUnlinkWidget.h"
+$#include "ResourceManager.h"
+$#include "ILayer.h"
+
+namespace GUI
+{
+
+	class LayerManager : public IUnlinkWidget
+	{
+	public:
+		static LayerManager& Instance();
+
+		void AttachToLayerNode(const std::string& name, Widget* item);
+
+		void DetachFromLayer(Widget* item);
+
+		void UpLayerItem(Widget* item);
+
+		bool IsExist(const std::string& name) const;
+
+		Widget* GetWidgetFromPoint(int left, int top);
+
+		virtual void DumpStatisticToLog();
+	};
+}

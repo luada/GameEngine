@@ -1,0 +1,21 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "script/ScriptUnit.h"
+$#include "script/LuaFunctor.h"
+$#include "IObject.h"
+$#include "B.h"
+$#include "c/C.h"
+
+namespace T
+{
+
+	class A : public C
+	{
+	public:
+		A();
+
+		void DDDD(int mj);
+	};
+
+	CScriptObject* GetObj();
+}

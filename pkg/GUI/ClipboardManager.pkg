@@ -1,0 +1,22 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Instance.h"
+$#include "Types.h"
+$#include "UString.h"
+
+namespace GUI
+{
+
+	class ClipboardManager
+	{
+	public:
+		static ClipboardManager& Instance();
+
+		void SetClipboardData(const std::string& type, const std::string& data);
+
+		void ClearClipboardData(const std::string& type);
+
+		std::string GetClipboardData(const std::string& type);
+	};
+}

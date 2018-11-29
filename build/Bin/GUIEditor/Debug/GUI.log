@@ -1,0 +1,176 @@
+ ---------------------------------------------------------------------------------------------------------------------------------- 
+                                          loging report for : 12/08/2010   14:02:07
+ ---------------------------------------------------------------------------------------------------------------------------------- 
+
+14:02:07  |  Platform  |  Info  |  * Initialise: DirectXRenderManager  |  ..\src\DXPlatform\DirectXRenderManager.cpp  |  18
+14:02:07  |  Platform  |  Info  |  DirectXRenderManager successfully initialized  |  ..\src\DXPlatform\DirectXRenderManager.cpp  |  34
+14:02:07  |  Platform  |  Info  |  * Initialise: DirectXDataManager  |  ..\src\DXPlatform\DirectXDataManager.cpp  |  58
+14:02:07  |  Platform  |  Info  |  DirectXDataManager successfully initialized  |  ..\src\DXPlatform\DirectXDataManager.cpp  |  60
+14:02:07  |  Core  |  Info  |  * Initialise: Gui  |  ..\src\GUI\Gui.cpp  |  59
+14:02:07  |  Core  |  Info  |  * GUI version 3.0.1  |  ..\src\GUI\Gui.cpp  |  63
+14:02:08  |  Core  |  Info  |  * Initialise: ResourceManager  |  ..\src\GUI\ResourceManager.cpp  |  21
+14:02:08  |  Core  |  Info  |  ResourceManager successfully initialized  |  ..\src\GUI\ResourceManager.cpp  |  28
+14:02:08  |  Core  |  Info  |  * Initialise: LayerManager  |  ..\src\GUI\LayerManager.cpp  |  22
+14:02:08  |  Core  |  Info  |  LayerManager successfully initialized  |  ..\src\GUI\LayerManager.cpp  |  30
+14:02:08  |  Core  |  Info  |  * Initialise: WidgetManager  |  ..\src\GUI\WidgetManager.cpp  |  44
+14:02:08  |  Core  |  Info  |  WidgetManager successfully initialized  |  ..\src\GUI\WidgetManager.cpp  |  76
+14:02:08  |  Core  |  Info  |  * Initialise: InputManager  |  ..\src\GUI\InputManager.cpp  |  19
+14:02:08  |  Core  |  Info  |  InputManager successfully initialized  |  ..\src\GUI\InputManager.cpp  |  36
+14:02:08  |  Core  |  Info  |  * Initialise: SubWidgetManager  |  ..\src\GUI\SubWidgetManager.cpp  |  22
+14:02:08  |  Core  |  Info  |  SubWidgetManager successfully initialized  |  ..\src\GUI\SubWidgetManager.cpp  |  42
+14:02:08  |  Core  |  Info  |  * Initialise: SkinManager  |  ..\src\GUI\SkinManager.cpp  |  24
+14:02:08  |  Core  |  Info  |  SkinManager successfully initialized  |  ..\src\GUI\SkinManager.cpp  |  32
+14:02:08  |  Core  |  Info  |  * Initialise: FontManager  |  ..\src\GUI\FontManager.cpp  |  21
+14:02:08  |  Core  |  Info  |  FontManager successfully initialized  |  ..\src\GUI\FontManager.cpp  |  30
+14:02:08  |  Core  |  Info  |  * Initialise: ControllerManager  |  ..\src\GUI\ControllerManager.cpp  |  19
+14:02:08  |  Core  |  Info  |  ControllerManager successfully initialized  |  ..\src\GUI\ControllerManager.cpp  |  29
+14:02:08  |  Core  |  Info  |  * Initialise: PointerManager  |  ..\src\GUI\PointerManager.cpp  |  29
+14:02:08  |  Core  |  Info  |  PointerManager successfully initialized  |  ..\src\GUI\PointerManager.cpp  |  47
+14:02:08  |  Core  |  Info  |  * Initialise: ClipboardManager  |  ..\src\GUI\ClipboardManager.cpp  |  58
+14:02:08  |  Core  |  Info  |  ClipboardManager successfully initialized  |  ..\src\GUI\ClipboardManager.cpp  |  70
+14:02:08  |  Core  |  Info  |  * Initialise: LayoutManager  |  ..\src\GUI\LayoutManager.cpp  |  20
+14:02:08  |  Core  |  Info  |  LayoutManager successfully initialized  |  ..\src\GUI\LayoutManager.cpp  |  26
+14:02:08  |  Core  |  Info  |  * Initialise: DynLibManager  |  ..\src\GUI\DynLibManager.cpp  |  12
+14:02:08  |  Core  |  Info  |  DynLibManager successfully initialized  |  ..\src\GUI\DynLibManager.cpp  |  14
+14:02:08  |  Core  |  Info  |  * Initialise: PluginManager  |  ..\src\GUI\PluginManager.cpp  |  14
+14:02:08  |  Core  |  Info  |  PluginManager successfully initialized  |  ..\src\GUI\PluginManager.cpp  |  18
+14:02:08  |  Core  |  Info  |  * Initialise: LanguageManager  |  ..\src\GUI\LanguageManager.cpp  |  18
+14:02:08  |  Core  |  Info  |  LanguageManager successfully initialized  |  ..\src\GUI\LanguageManager.cpp  |  22
+14:02:08  |  Core  |  Info  |  * Initialise: FactoryManager  |  ..\src\GUI\FactoryManager.cpp  |  12
+14:02:08  |  Core  |  Info  |  FactoryManager successfully initialized  |  ..\src\GUI\FactoryManager.cpp  |  15
+14:02:08  |  Core  |  Info  |  Load ini curFile 'editor_theme.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:08  |  Core  |  Info  |  Load ini curFile 'editor_language.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:08  |  Core  |  Info  |  Load ini curFile 'core_font.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:08  |  Core  |  Info  |  ResourceTrueTypeFont 'font_DejaVuSans.17' using texture size 512 x 256  |  ..\src\GUI\ResourceTrueTypeFont.cpp  |  194
+14:02:08  |  Core  |  Info  |  ResourceTrueTypeFont 'font_DejaVuSans.17' using real height 17 pixels  |  ..\src\GUI\ResourceTrueTypeFont.cpp  |  195
+14:02:11  |  Core  |  Info  |  ResourceTrueTypeFont 'font_Simhei' using texture size 4096 x 4096  |  ..\src\GUI\ResourceTrueTypeFont.cpp  |  194
+14:02:11  |  Core  |  Info  |  ResourceTrueTypeFont 'font_Simhei' using real height 17 pixels  |  ..\src\GUI\ResourceTrueTypeFont.cpp  |  195
+14:02:15  |  Core  |  Info  |  ResourceTrueTypeFont 'font_DejaVuSans.14' using texture size 256 x 256  |  ..\src\GUI\ResourceTrueTypeFont.cpp  |  194
+14:02:15  |  Core  |  Info  |  ResourceTrueTypeFont 'font_DejaVuSans.14' using real height 15 pixels  |  ..\src\GUI\ResourceTrueTypeFont.cpp  |  195
+14:02:15  |  Core  |  Info  |  Load ini curFile 'core_resource.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Info  |  Load ini curFile 'core_skin.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Info  |  Register value : 'HCenter' = 0  |  f:\luatool\inc\gui\Align.h  |  184
+14:02:15  |  Core  |  Info  |  Register value : 'VCenter' = 0  |  f:\luatool\inc\gui\Align.h  |  185
+14:02:15  |  Core  |  Info  |  Register value : 'Center' = 0  |  f:\luatool\inc\gui\Align.h  |  186
+14:02:15  |  Core  |  Info  |  Register value : 'Left' = 2  |  f:\luatool\inc\gui\Align.h  |  187
+14:02:15  |  Core  |  Info  |  Register value : 'Right' = 4  |  f:\luatool\inc\gui\Align.h  |  188
+14:02:15  |  Core  |  Info  |  Register value : 'HStretch' = 6  |  f:\luatool\inc\gui\Align.h  |  189
+14:02:15  |  Core  |  Info  |  Register value : 'Top' = 8  |  f:\luatool\inc\gui\Align.h  |  190
+14:02:15  |  Core  |  Info  |  Register value : 'Bottom' = 16  |  f:\luatool\inc\gui\Align.h  |  191
+14:02:15  |  Core  |  Info  |  Register value : 'VStretch' = 24  |  f:\luatool\inc\gui\Align.h  |  192
+14:02:15  |  Core  |  Info  |  Register value : 'Stretch' = 30  |  f:\luatool\inc\gui\Align.h  |  193
+14:02:15  |  Core  |  Info  |  Register value : 'Default' = 10  |  f:\luatool\inc\gui\Align.h  |  194
+14:02:15  |  Core  |  Info  |  Register value : 'HRelative' = 32  |  f:\luatool\inc\gui\Align.h  |  195
+14:02:15  |  Core  |  Info  |  Register value : 'VRelative' = 64  |  f:\luatool\inc\gui\Align.h  |  196
+14:02:15  |  Core  |  Info  |  Register value : 'Relative' = 96  |  f:\luatool\inc\gui\Align.h  |  197
+14:02:15  |  Core  |  Info  |  Load ini curFile 'core_pointer.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Info  |  Load ini curFile 'editor_layer.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Info  |  Load ini curFile 'editor_skin.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Info  |  Load ini curFile 'editor_skin_helper.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Info  |  Load ini curFile 'editor_settings.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Info  |  Gui successfully initialized  |  ..\src\GUI\Gui.cpp  |  104
+14:02:15  |  Core  |  Info  |  Load ini curFile 'widgets.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Info  |  Load ini curFile 'values.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Info  |  Load ini curFile 'ignore.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Info  |  Load ini curFile 'editor_plugin.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Info  |  Load ini curFile 'StrangeButtonPlugin.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Info  |  Loading library Plugin_StrangeButton_d.dll  |  ..\src\GUI\DynLib.cpp  |  27
+14:02:15  |  Core  |  Error  |  Plugin 'Plugin_StrangeButton_d.dll' not found  |  ..\src\GUI\PluginManager.cpp  |  43
+14:02:15  |  Core  |  Info  |  Load ini curFile 'HikariWidgetPlugin.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Info  |  Loading library Plugin_HikariWidget_d.dll  |  ..\src\GUI\DynLib.cpp  |  27
+14:02:15  |  Core  |  Error  |  Plugin 'Plugin_HikariWidget_d.dll' not found  |  ..\src\GUI\PluginManager.cpp  |  43
+14:02:15  |  Core  |  Info  |  Load ini curFile 'AwesomiumWidgetPlugin.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Info  |  Loading library Plugin_AwesomiumWidget_d.dll  |  ..\src\GUI\DynLib.cpp  |  27
+14:02:15  |  Core  |  Error  |  Plugin 'Plugin_AwesomiumWidget_d.dll' not found  |  ..\src\GUI\PluginManager.cpp  |  43
+14:02:15  |  Core  |  Info  |  Load ini curFile 'external_resources.xml'  |  ..\src\GUI\ResourceManager.cpp  |  126
+14:02:15  |  Core  |  Error  |  ResourceManager : 'external_resources.xml', not found  |  ..\src\GUI\ResourceManager.cpp  |  149
+14:02:16  |  Core  |  Info  |  load layout 'EditorToolTip.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Info  |  load layout 'interface.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Info  |  load layout 'SettingsWindow.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Info  |  load layout 'PropertiesPanelView.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Info  |  load layout 'PanelCell.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Info  |  load layout 'PanelMainProperties.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Info  |  load layout 'PanelCell.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Info  |  load layout 'PanelProperties.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Info  |  load layout 'PanelCell.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Info  |  load layout 'PanelProperties.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Info  |  load layout 'PanelCell.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Info  |  load layout 'PanelItems.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Info  |  load layout 'PanelCell.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Info  |  load layout 'PanelUserData.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Info  |  load layout 'PanelCell.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Info  |  load layout 'PanelControllers.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Info  |  load layout 'WidgetsWindow.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Info  |  load layout 'MetaSolutionWindow.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Info  |  load layout 'OpenSaveFileDialog.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Info  |  load layout 'interface_menu.layout'  |  ..\src\GUI\LayoutManager.cpp  |  51
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Error  |  Skin 'DDContainer' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:16  |  Core  |  Error  |  Skin 'Default' not found. Replaced with default skin.  |  ..\src\GUI\SkinManager.cpp  |  93
+14:02:21  |  Core  |  Info  |  * Shutdown: Gui  |  ..\src\GUI\Gui.cpp  |  111
+14:02:21  |  Core  |  Info  |  * Shutdown: PointerManager  |  ..\src\GUI\PointerManager.cpp  |  54
+14:02:21  |  Core  |  Info  |  PointerManager successfully shutdown  |  ..\src\GUI\PointerManager.cpp  |  69
+14:02:21  |  Core  |  Info  |  * Shutdown: InputManager  |  ..\src\GUI\InputManager.cpp  |  43
+14:02:21  |  Core  |  Info  |  InputManager successfully shutdown  |  ..\src\GUI\InputManager.cpp  |  48
+14:02:21  |  Core  |  Info  |  * Shutdown: SkinManager  |  ..\src\GUI\SkinManager.cpp  |  39
+14:02:21  |  Core  |  Info  |  SkinManager successfully shutdown  |  ..\src\GUI\SkinManager.cpp  |  44
+14:02:21  |  Core  |  Info  |  * Shutdown: SubWidgetManager  |  ..\src\GUI\SubWidgetManager.cpp  |  49
+14:02:21  |  Core  |  Info  |  SubWidgetManager successfully shutdown  |  ..\src\GUI\SubWidgetManager.cpp  |  69
+14:02:21  |  Core  |  Info  |  * Shutdown: LayerManager  |  ..\src\GUI\LayerManager.cpp  |  37
+14:02:21  |  Core  |  Info  |  destroy curLayer 'Background'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'Back'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'LayoutEditor_Widgets'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'LayoutEditor_Rectangle'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'Overlapped'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'Middle'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'Modal'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'Main'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'Popup'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'FadeMiddle'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'Info'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'ToolTip'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'DragAndDrop'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'FadeBusy'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'Pointer'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'Fade'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  destroy curLayer 'Statistic'  |  ..\src\GUI\LayerManager.cpp  |  177
+14:02:21  |  Core  |  Info  |  LayerManager successfully shutdown  |  ..\src\GUI\LayerManager.cpp  |  47
+14:02:21  |  Core  |  Info  |  * Shutdown: FontManager  |  ..\src\GUI\FontManager.cpp  |  37
+14:02:21  |  Core  |  Info  |  FontManager successfully shutdown  |  ..\src\GUI\FontManager.cpp  |  44
+14:02:21  |  Core  |  Info  |  * Shutdown: ControllerManager  |  ..\src\GUI\ControllerManager.cpp  |  36
+14:02:21  |  Core  |  Info  |  ControllerManager successfully shutdown  |  ..\src\GUI\ControllerManager.cpp  |  47
+14:02:21  |  Core  |  Info  |  * Shutdown: ClipboardManager  |  ..\src\GUI\ClipboardManager.cpp  |  77
+14:02:21  |  Core  |  Info  |  ClipboardManager successfully shutdown  |  ..\src\GUI\ClipboardManager.cpp  |  79
+14:02:21  |  Core  |  Info  |  * Shutdown: LayoutManager  |  ..\src\GUI\LayoutManager.cpp  |  33
+14:02:21  |  Core  |  Info  |  LayoutManager successfully shutdown  |  ..\src\GUI\LayoutManager.cpp  |  37
+14:02:21  |  Core  |  Info  |  * Shutdown: PluginManager  |  ..\src\GUI\PluginManager.cpp  |  25
+14:02:21  |  Core  |  Info  |  PluginManager successfully shutdown  |  ..\src\GUI\PluginManager.cpp  |  30
+14:02:21  |  Core  |  Info  |  * Shutdown: DynLibManager  |  ..\src\GUI\DynLibManager.cpp  |  21
+14:02:21  |  Core  |  Info  |  DynLibManager successfully shutdown  |  ..\src\GUI\DynLibManager.cpp  |  35
+14:02:21  |  Core  |  Info  |  * Shutdown: LanguageManager  |  ..\src\GUI\LanguageManager.cpp  |  29
+14:02:21  |  Core  |  Info  |  LanguageManager successfully shutdown  |  ..\src\GUI\LanguageManager.cpp  |  33
+14:02:21  |  Core  |  Info  |  * Shutdown: ResourceManager  |  ..\src\GUI\ResourceManager.cpp  |  35
+14:02:21  |  Core  |  Info  |  ResourceManager successfully shutdown  |  ..\src\GUI\ResourceManager.cpp  |  45
+14:02:21  |  Core  |  Info  |  * Shutdown: FactoryManager  |  ..\src\GUI\FactoryManager.cpp  |  22
+14:02:21  |  Core  |  Info  |  FactoryManager successfully shutdown  |  ..\src\GUI\FactoryManager.cpp  |  24
+14:02:21  |  Core  |  Info  |  * Shutdown: WidgetManager  |  ..\src\GUI\WidgetManager.cpp  |  83
+14:02:21  |  Core  |  Info  |  WidgetManager successfully shutdown  |  ..\src\GUI\WidgetManager.cpp  |  93
+14:02:21  |  Core  |  Info  |  Gui successfully shutdown  |  ..\src\GUI\Gui.cpp  |  149
+14:02:21  |  Platform  |  Info  |  * Shutdown: DirectXRenderManager  |  ..\src\DXPlatform\DirectXRenderManager.cpp  |  41
+14:02:21  |  Platform  |  Info  |  DirectXRenderManager successfully shutdown  |  ..\src\DXPlatform\DirectXRenderManager.cpp  |  46
+14:02:21  |  Platform  |  Info  |  * Shutdown: DirectXDataManager  |  ..\src\DXPlatform\DirectXDataManager.cpp  |  67
+14:02:21  |  Platform  |  Info  |  DirectXDataManager successfully shutdown  |  ..\src\DXPlatform\DirectXDataManager.cpp  |  69

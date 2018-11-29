@@ -1,0 +1,32 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "StaticText.h"
+
+namespace GUI
+{
+
+	class Button : public StaticText
+	{
+	public:
+		void SetButtonPressed(bool value);
+
+		bool GetButtonPressed();
+
+		void SetStateCheck(bool value);
+
+		bool GetStateCheck();
+
+		void SetImageIndex(size_t value);
+
+		size_t GetImageIndex();
+
+		void SetModeImage(bool value);
+
+		bool GetModeImage();
+
+		StaticImage* GetStaticImage();
+
+		virtual void SetProperty(const std::string& key, const std::string& value);
+	};
+}

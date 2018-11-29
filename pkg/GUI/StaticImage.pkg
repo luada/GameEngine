@@ -1,0 +1,77 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Widget.h"
+$#include "ResourceImageSet.h"
+$#include "ImageInfo.h"
+$#include "Guid.h"
+
+namespace GUI
+{
+
+	class StaticImage : public Widget
+	{
+	public:
+		void SetImageInfo(const std::string& texture, const IntCoord& coord, const IntSize& tile);
+
+		void SetImageTexture(const std::string& value);
+
+		void SetImageRect(const IntRect& value);
+
+		void SetImageCoord(const IntCoord& value);
+
+		void SetImageTile(const IntSize& value);
+
+		void SetImageIndex(size_t index);
+
+		size_t GetImageIndex();
+
+		size_t GetItemCount() const;
+
+		void SetItemSelect(size_t index);
+
+		size_t GetItemSelect();
+
+		void ResetItemSelect();
+
+		void InsertItem(size_t index, const IntCoord& item);
+
+		void AddItem(const IntCoord& item);
+
+		void SetItem(size_t index, const IntCoord& item);
+
+		void DeleteItem(size_t index);
+
+		void DeleteAllItems();
+
+		void AddItemFrame(size_t index, const IntCoord& item);
+
+		void InsertItemFrame(size_t index, size_t indexFrame, const IntCoord& item);
+
+		void AddItemFrameDublicate(size_t index, size_t indexSourceFrame);
+
+		void InsertItemFrameDublicate(size_t index, size_t indexFrame, size_t indexSourceFrame);
+
+		void SetItemFrame(size_t index, size_t indexFrame, const IntCoord& item);
+
+		void DeleteItemFrame(size_t index, size_t indexFrame);
+
+		void DeleteAllItemFrames(size_t index);
+
+		void SetItemFrameRate(size_t index, float rate);
+
+		float GetItemFrameRate(size_t index);
+
+		bool SetItemResource(const Guid& id);
+
+		bool SetItemResource(const std::string& name);
+
+		void SetItemGroup(const std::string& value);
+
+		void SetItemName(const std::string& value);
+
+		void SetItemResourceInfo(ResourceImageSetPtr resource, const std::string& group, const std::string& name);
+
+		virtual void SetProperty(const std::string& key, const std::string& value);
+	};
+}

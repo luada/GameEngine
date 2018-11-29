@@ -1,0 +1,53 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+
+namespace GUI
+{
+
+	struct MessageBoxStyle
+	{
+
+		enum Enum
+		{
+			None = FLAG_NONE,
+			Ok = FLAG(0),
+			Yes = FLAG(1),
+			No = FLAG(2),
+			Abort = FLAG(3),
+			Retry = FLAG(4),
+			Ignore = FLAG(5),
+			Cancel = FLAG(6),
+			Try = FLAG(7),
+			Continue = FLAG(8),
+			_IndexUserButton1 = 9,
+			Button1 = FLAG(_IndexUserButton1),
+			Button2 = FLAG(_IndexUserButton1 + 1),
+			Button3 = FLAG(_IndexUserButton1 + 2),
+			Button4 = FLAG(_IndexUserButton1 + 3),
+			_CountUserButtons = 4,
+			_IndexIcon1 = _IndexUserButton1 + _CountUserButtons,
+			IconDefault = FLAG(_IndexIcon1),
+			IconInfo = FLAG(_IndexIcon1),
+			IconQuest = FLAG(_IndexIcon1 + 1),
+			IconError = FLAG(_IndexIcon1 + 2),
+			IconWarning = FLAG(_IndexIcon1 + 3),
+			Icon1 = FLAG(_IndexIcon1),
+			Icon2 = FLAG(_IndexIcon1 + 1),
+			Icon3 = FLAG(_IndexIcon1 + 2),
+			Icon4 = FLAG(_IndexIcon1 + 3),
+			Icon5 = FLAG(_IndexIcon1 + 4),
+			Icon6 = FLAG(_IndexIcon1 + 5),
+			Icon7 = FLAG(_IndexIcon1 + 6),
+			Icon8 = FLAG(_IndexIcon1 + 7)
+		};
+
+		MessageBoxStyle(Enum value = None);
+
+		size_t GetIconIndex();
+
+		size_t GetButtonIndex();
+
+		static MessageBoxStyle Parse(const std::string& value);
+	};
+}

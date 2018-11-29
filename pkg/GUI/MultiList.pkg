@@ -1,0 +1,82 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Widget.h"
+$#include "List.h"
+$#include "Any.h"
+$#include "BiIndexBase.h"
+$#include "EventPair.h"
+
+namespace GUI
+{
+
+	class MultiList : public Widget , public BiIndexBase
+	{
+	public:
+		size_t GetColumnCount();
+
+		void InsetColumn(size_t column, const UString& name, int width, Widget* value = nullptr);
+
+		void AppendColumn(const UString& name, int width, Widget* value = nullptr);
+
+		void RemoveColumn(size_t column);
+
+		void RemoveAllColumns();
+
+		void SetColumnName(size_t column, const UString& name);
+
+		void SetColumnWidth(size_t column, int width);
+
+		const UString& GetColumnName(size_t column);
+
+		int GetColulmnWidth(size_t column);
+
+		void SortByColumn(size_t column, bool backward = false);
+
+		void SetColumnData(size_t index, Widget* value);
+
+		void ClearColumnData(size_t index);
+
+		Widget* GetColumnData(size_t index);
+
+		size_t GetItemCount() const;
+
+		void InsertItem(size_t index, const UString& name, Widget* value = nullptr);
+
+		void AppendItem(const UString& name, Widget* value = nullptr);
+
+		void RemoveItem(size_t index);
+
+		void RemoveAllItems();
+
+		void SwapItems(size_t index1,size_t index2);
+
+		void SetItemName(size_t index, const UString& name);
+
+		const UString& GetItemName(size_t index);
+
+		size_t GetIndexSelected();
+
+		void SetIndexSelected(size_t index);
+
+		void ClearIndexSelected();
+
+		void SetItemData(size_t index, Widget* value);
+
+		void ClearItemData(size_t index);
+
+		Widget* GetItemData(size_t index);
+
+		void SetSubItemName(size_t column, size_t index, const UString& name);
+
+		const UString& GetSubItemName(size_t column, size_t index);
+
+		size_t FindSubItemWith(size_t column, const UString& name);
+
+		void SetSubItemData(size_t column, size_t index, Widget* value);
+
+		void ClearSubItemData(size_t column, size_t index );
+
+		Widget* GetSubItemData(size_t column, size_t index);
+	};
+}

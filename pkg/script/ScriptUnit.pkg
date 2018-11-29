@@ -1,0 +1,20 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "script/ILuaScriptMgr.h"
+$#include <string>
+
+class CScriptObject
+{
+public:
+	bool IsScriptObjValid();
+
+	int GetScriptObjID() const;
+
+	void SetScriptObjID(int objID);
+
+	bool CreateScriptObj(std::string scriptPath);
+
+	void SetScriptClass(std::string scriptClass);
+
+	const std::string& GetScriptClass();
+};

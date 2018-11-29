@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GUI type="Layout">
+    <Widget type="Window" skin="WindowC" position="368 240 360 200" layer="Back" name="WinPage">
+        <Property key="Script_Class" value="ui.winc.winPage/WinPage"/>
+        <Widget type="Button" skin="Button" position="124 41 104 40" name="BtnOK">
+            <Property key="Widget_Caption" value="OK"/>
+            <Property key="Widget_Alpha" value="0.8"/>
+            <Property key="Widget_NeedKey" value="true"/>
+            <Property key="Widget_NeedMouse" value="true"/>
+            <Property key="Widget_Enabled" value="true"/>
+            <Property key="Widget_NeedToolTip" value="true"/>
+            <Property key="Text_FontName" value="font_ManualFont"/>
+            <Property key="Script_Class" value="ui.winc.winPage/WinPageBtnOK"/>
+            <UserString key="" value=""/>
+        </Widget>
+    </Widget>
+</GUI>

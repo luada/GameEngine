@@ -1,0 +1,35 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Types.h"
+
+namespace GUI
+{
+
+	struct Colour
+	{
+		float red, green, blue, alpha;
+		static const Colour Zero;
+		static const Colour Black;
+		static const Colour White;
+		static const Colour Red;
+		static const Colour Green;
+		static const Colour Blue;
+
+		Colour();
+
+		Colour(float red, float green, float blue, float alpha = 1);
+
+		explicit Colour(const std::string& value);
+
+		bool operator==(Colour const& value) const;
+
+		void Set(float red, float green, float blue, float alpha = 1);
+
+		void Clear();
+
+		std::string Print() const;
+
+		static Colour Parse(const std::string& value);
+	};
+}

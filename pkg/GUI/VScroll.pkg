@@ -1,0 +1,51 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Widget.h"
+$#include "EventPair.h"
+
+namespace GUI
+{
+
+	class VScroll : public Widget
+	{
+	public:
+		void SetScrollRange(size_t value);
+
+		size_t GetScrollRange();
+
+		void SetScrollPosition(size_t value);
+
+		size_t GetScrollPosition();
+
+		void SetScrollPage(size_t value);
+
+		size_t GetScrollPage();
+
+		void SetScrollViewPage(size_t value);
+
+		size_t GetScrollViewPage();
+
+		virtual int GetLineSize();
+
+		virtual void SetTrackSize(int value);
+
+		virtual int GetTrackSize();
+
+		void SetMinTrackSize(int value);
+
+		int GetMinTrackSize();
+
+		void SetMoveToClick(bool value);
+
+		bool GetMoveToClick();
+
+		void SetPosition(int left, int top);
+
+		void SetSize(int width, int height);
+
+		void SetCoord(int left, int top, int width, int height);
+
+		virtual void SetProperty(const std::string& key, const std::string& value);
+	};
+}

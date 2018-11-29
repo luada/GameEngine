@@ -1,0 +1,18 @@
+//This file is created by AutoWrapLua.exe
+
+$#include <string>
+$#include "script/ScriptUnit.h"
+
+class B : public CScriptObject
+{
+public:
+	B();
+
+	virtual ~B();
+
+	void DDDD(int mj);
+
+	void setB(int v);
+
+	int getB();
+};

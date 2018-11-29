@@ -1,0 +1,7 @@
+//This file is created by AutoGenPkg.exe
+
+$#include "a.h"
+$pfile	"a.pkg"
+
+$#include "b.h"
+$pfile	"b.pkg"

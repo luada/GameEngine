@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GUI type="Layout">
+    <Widget type="Button" skin="CheckBox" position="8 8 192 24" align="HStretch Top" name="check_Static">
+        <Property key="Widget_Caption" value="Show StaticPanel"/>
+        <Property key="Button_Pressed" value="true"/>
+	<Property key="Script_Class" value="UI.Button"/>
+    </Widget>
+</GUI>

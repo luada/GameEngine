@@ -1,0 +1,68 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Macros.h"
+$#include "Diagnostic.h"
+$#include "Utility.h"
+$#include <map>
+$#include <vector>
+
+namespace GUI
+{
+
+	struct Align
+	{
+
+		enum Enum
+		{
+			HCenter = FLAG_NONE,
+			VCenter = FLAG_NONE,
+			Center = HCenter | VCenter,
+			Left = FLAG(1),
+			Right = FLAG(2),
+			HStretch = Left | Right,
+			Top = FLAG(3),
+			Bottom = FLAG(4),
+			VStretch = Top | Bottom,
+			Stretch = HStretch | VStretch,
+			Default = Left | Top,
+			HRelative = FLAG(5),
+			VRelative = FLAG(6),
+			Relative = HRelative | VRelative
+		};
+
+		Align(Enum value = Default);
+
+		bool IsHCenter() const;
+
+		bool IsVCenter() const;
+
+		bool IsCenter() const;
+
+		bool IsLeft() const;
+
+		bool IsRight() const;
+
+		bool IsHStretch() const;
+
+		bool IsTop() const;
+
+		bool IsBottom() const;
+
+		bool IsVStretch() const;
+
+		bool IsStretch() const;
+
+		bool IsDefault() const;
+
+		bool IsHRelative() const;
+
+		bool IsVRelative() const;
+
+		bool IsRelative() const;
+
+		static Align Parse(const std::string& value);
+
+		std::string Print() const;
+	};
+}

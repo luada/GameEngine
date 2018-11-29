@@ -1,0 +1,41 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+
+namespace GUI
+{
+
+	namespace types
+	{
+
+		struct TPoint
+		{
+			TOLUA_TEMPLATE_BIND(T,int,float)
+			T left, top;
+
+			TPoint();
+
+			TPoint(T const& left, T const& top);
+
+			TPoint(TPoint<T> const& o);
+
+			TPoint<T> operator-(TPoint<T> const& o) const;
+
+			TPoint<T> operator+(TPoint<T> const& o) const;
+
+			bool operator==(TPoint<T> const& o) const;
+
+			void Clear();
+
+			void Set(T const& left, T const& top);
+
+			void Swap(TPoint<T>& value);
+
+			bool Empty() const;
+
+			std::string Print() const;
+
+			static TPoint<T> Parse(const std::string& value);
+		};
+	}
+}

@@ -1,0 +1,41 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+
+namespace GUI
+{
+
+	namespace types
+	{
+
+		struct TSize
+		{
+			TOLUA_TEMPLATE_BIND(T,int,float)
+			T width, height;
+
+			TSize();
+
+			TSize(T const& w, T const& h);
+
+			TSize(TSize<T> const& o);
+
+			TSize<T> operator-(TSize<T> const& o) const;
+
+			TSize<T> operator+(TSize<T> const& o) const;
+
+			bool operator==(TSize<T> const& o) const;
+
+			void Clear();
+
+			void Set(T const& w, T const& h);
+
+			void Swap(TSize<T>& value);
+
+			bool Empty() const;
+
+			std::string Print() const;
+
+			static TSize<T> Parse(const std::string& value);
+		};
+	}
+}

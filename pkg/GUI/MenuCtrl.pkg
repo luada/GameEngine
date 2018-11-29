@@ -1,0 +1,114 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Types.h"
+$#include "MenuItemType.h"
+$#include "Widget.h"
+$#include "Any.h"
+$#include "EventPair.h"
+$#include "MenuItemType.h"
+$#include "ControllerFadeAlpha.h"
+
+namespace GUI
+{
+
+	class MenuCtrl : public Widget
+	{
+	public:
+		enum ItemImage
+		{
+			ItemImageNone,
+			ItemImagePopup
+		};
+
+		virtual void SetVisible(bool value);
+
+		void SetVisibleSmooth(bool value);
+
+		size_t GetItemCount() const;
+
+		MenuItem* InsertItem(size_t index, const UString& name, MenuItemType type = MenuItemType::Normal, const std::string& id = "", Widget* value = nullptr);
+
+		MenuItem* InsertItemEx(MenuItem* to, const UString& name, MenuItemType type = MenuItemType::Normal, const std::string& id = "", Widget* value = nullptr);
+
+		MenuItem* AppendItem(const UString& name, MenuItemType type = MenuItemType::Normal, const std::string& id = "", Widget* value = nullptr);
+
+		void RemoveItem(size_t index);
+
+		void RemoveItem(MenuItem* item);
+
+		void RemoveAllItems();
+
+		MenuItem* GetItem(size_t index);
+
+		size_t GetItemIndex(MenuItem* item);
+
+		size_t FindItemIndex(MenuItem* item);
+
+		MenuItem* FindItemWith(const UString& name);
+
+		void SetItemData(size_t index, Widget* value);
+
+		void SetItemData(MenuItem* item, Widget* value);
+
+		void ClearItemData(size_t index);
+
+		void ClearItemData(MenuItem* item);
+
+		Widget* GetItemData(size_t index);
+
+		Widget* GetItemDataEx(MenuItem* item);
+
+		void SetItemID(size_t index, const std::string& id);
+
+		void SetItemId(MenuItem* item, const std::string& id);
+
+		const std::string& GetItemID(size_t index);
+
+		const std::string& GetItemId(MenuItem* item);
+
+		MenuItem* GetItemById(const std::string& id);
+
+		size_t GetItemIndexById(const std::string& id);
+
+		void SetItemName(size_t index, const UString& name);
+
+		void SetItemName(MenuItem* item, const UString& name);
+
+		const UString& GetItemName(size_t index);
+
+		const UString& GetItemName(MenuItem* item);
+
+		size_t FindItemIndexWith(const UString& name);
+
+		void SetItemChildVisible(size_t index, bool visible);
+
+		void SetItemChildVisible(MenuItem* item, bool visible);
+
+		MenuCtrl* GetItemChild(size_t index);
+
+		MenuCtrl* GetItemChild(MenuItem* item);
+
+		MenuCtrl* CreateItemChild(size_t index);
+
+		MenuCtrl* CreateItemChild(MenuItem* item);
+
+		void RemoveItemChild(size_t index);
+
+		void RemoveItemChild(MenuItem* item);
+
+		MenuItemType GetItemType(size_t index);
+
+		MenuItemType GetItemType(MenuItem* item);
+
+		void SetItemType(size_t index, MenuItemType type);
+
+		void SetItemType(MenuItem* item, MenuItemType type);
+
+		void SetPopupAccept(bool value);
+
+		bool GetPopupAccept();
+
+		MenuItem* GetMenuItemParent();
+	};
+}

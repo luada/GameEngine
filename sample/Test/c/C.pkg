@@ -1,0 +1,15 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "B.h"
+
+class C : public B
+{
+public:
+	C();
+
+	~C();
+
+	void setC(int v);
+
+	int getC();
+};

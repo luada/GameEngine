@@ -1,0 +1,14 @@
+
+class A
+{
+public:
+	A();
+
+	~A();
+
+	void setA(int v);
+
+	int getA();
+};
+
+void Set(int v);

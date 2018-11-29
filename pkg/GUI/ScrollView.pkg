@@ -1,0 +1,39 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Widget.h"
+$#include "ScrollViewBase.h"
+
+namespace GUI
+{
+
+	class ScrollView : public Widget
+	{
+	public:
+		void SetPosition(int left, int top);
+
+		void SetSize(int width, int height);
+
+		void SetCoord(int left, int top, int width, int height);
+
+		void SetVisibleVScroll(bool value);
+
+		bool IsVisibleVScroll();
+
+		void SetVisibleHScroll(bool value);
+
+		bool IsVisibleHScroll();
+
+		void SetCanvasAlign(Align value);
+
+		Align GetCanvasAlign();
+
+		void SetCanvasSize(int width, int height);
+
+		IntSize GetCanvasSize();
+
+		const IntCoord& GetClientCoord();
+
+		virtual void SetProperty(const std::string& key, const std::string& value);
+	};
+}

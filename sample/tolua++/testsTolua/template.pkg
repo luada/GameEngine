@@ -1,0 +1,11 @@
+$using namespace std; 
+class vector { 
+TOLUA_TEMPLATE_BIND(T, int, string, double) 
+void clear(); 
+int size() const; 
+const T& operator[](int index) const; 
+T& operator[](int index); 
+void push_back(T val); 
+vector(); 
+~vector(); 
+}; 

@@ -1,0 +1,34 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Widget.h"
+
+namespace GUI
+{
+
+	class StaticText : public Widget
+	{
+	public:
+		IntCoord GetTextRegion();
+
+		IntSize GetTextSize();
+
+		virtual void SetFontName(const std::string& value);
+
+		const std::string& GetFontName();
+
+		virtual void SetFontHeight(int value);
+
+		int GetFontHeight();
+
+		virtual void SetTextAlign(Align value);
+
+		Align GetTextAlign();
+
+		virtual void SetTextColour(const Colour& value);
+
+		const Colour& GetTextColour();
+
+		virtual void SetProperty(const std::string& key, const std::string& value);
+	};
+}

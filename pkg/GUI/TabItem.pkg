@@ -1,0 +1,33 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Widget.h"
+$#include "Tab.h"
+
+namespace GUI
+{
+
+	class TabItem : public Widget
+	{
+	public:
+		virtual void SetCaption(const UString& value);
+
+		virtual const UString& GetCaption();
+
+		void SetButtonWidth(int value = -1 );
+
+		int GetButtonWidth();
+
+		void SetItemName(const UString& value);
+
+		const UString& GetItemName();
+
+		void SetItemData(Widget* value);
+
+		void SetItemSelected();
+
+		void RemoveItem();
+
+		virtual void SetProperty(const std::string& key, const std::string& value);
+	};
+}

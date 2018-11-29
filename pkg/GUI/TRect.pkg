@@ -1,0 +1,51 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+
+namespace GUI
+{
+
+	namespace types
+	{
+
+		struct TRect
+		{
+			TOLUA_TEMPLATE_BIND(T,int,float)
+			T left, top, right, bottom;
+
+			TRect();
+
+			TRect(T const& left, T const& top, T const& right, T const& bottom);
+
+			TRect(TRect<T> const& o);
+
+			TRect<T> operator-(TRect<T> const& o) const;
+
+			TRect<T> operator+(TRect<T> const& o) const;
+
+			bool operator==(TRect<T> const& o) const;
+
+			T Width() const;
+
+			T Height() const;
+
+			void Clear();
+
+			void Set(T const& left, T const& top, T const& right, T const& bottom);
+
+			void Swap(TRect<T>& value);
+
+			bool Empty() const;
+
+			bool Inside(const TRect<T>& value) const;
+
+			bool Intersect(const TRect<T>& value) const;
+
+			bool Inside(const TPoint<T>& value) const;
+
+			std::string Print() const;
+
+			static TRect<T> Parse(const std::string& value);
+		};
+	}
+}

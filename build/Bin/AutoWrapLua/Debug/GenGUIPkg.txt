@@ -1,0 +1,1 @@
+-SRC inc\gui  -HOME gui\ -PKG_PATH pkg\gui -CFG pkg\gui\exportConfig.pkg -TOLUA -n GUI -o  exp\gui\LuaWrap1.cpp exp\gui\main.pkg

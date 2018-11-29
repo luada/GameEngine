@@ -1,0 +1,132 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "StaticText.h"
+$#include "TextChangeHistory.h"
+$#include "TextIterator.h"
+$#include "EventPair.h"
+$#include "ScrollViewBase.h"
+
+namespace GUI
+{
+
+	class Edit : public StaticText , public ScrollViewBase
+	{
+	public:
+		void SetTextIntervalColour(size_t start, size_t count, const Colour& colour);
+
+		size_t GetTextSelectionStart();
+
+		size_t GetTextSelectionEnd();
+
+		size_t GetTextSelectionLength();
+
+		UString GetTextInterval(size_t start, size_t count);
+
+		void SetTextSelection(size_t start, size_t end);
+
+		void DeleteTextSelection();
+
+		UString GetTextSelection();
+
+		bool IsTextSelection();
+
+		void SetTextSelectionColour(const Colour& value);
+
+		void SetTextCursor(size_t index);
+
+		size_t GetTextCursor();
+
+		virtual void SetCaption(const UString& value);
+
+		virtual const UString& GetCaption();
+
+		void SetOnlyText(const UString& value);
+
+		UString GetOnlyText();
+
+		size_t GetTextLength() const;
+
+		void SetOverflowToTheLeft(bool value);
+
+		bool GetOverflowToTheLeft();
+
+		void SetMaxTextLength(size_t value);
+
+		size_t GetMaxTextLength();
+
+		void InsertText(const UString& text, size_t index = ITEM_NONE);
+
+		void AddText(const UString& text);
+
+		void eraseText(size_t start, size_t count = 1);
+
+		void SetEditReadOnly(bool value);
+
+		bool GetEditReadOnly();
+
+		void SetEditPassword(bool value);
+
+		bool GetEditPassword();
+
+		void SetEditMultiLine(bool value);
+
+		bool GetEditMultiLine();
+
+		void SetEditStatic(bool value);
+
+		bool GetEditStatic();
+
+		void SetPasswordChar(Char value);
+
+		void SetPasswordChar(const UString& _char);
+
+		Char GetPasswordChar();
+
+		void SetEditWordWrap(bool value);
+
+		bool GetEditWordWrap();
+
+		void SetTabPrinting(bool value);
+
+		bool GetTabPrinting();
+
+		bool GetInvertSelected();
+
+		void SetInvertSelected(bool value);
+
+		void SetPosition(int left, int top);
+
+		void SetSize(int width, int height);
+
+		void SetCoord(int left, int top, int width, int height);
+
+		void SetVisibleVScroll(bool value);
+
+		bool IsVisibleVScroll();
+
+		size_t GetVScrollRange();
+
+		size_t GetVScrollPosition();
+
+		void SetVScrollPosition(size_t index);
+
+		void SetVisibleHScroll(bool value);
+
+		bool IsVisibleHScroll();
+
+		size_t GetHScrollRange();
+
+		size_t GetHScrollPosition();
+
+		void SetHScrollPosition(size_t index);
+
+		virtual void SetFontName(const std::string& value);
+
+		virtual void SetFontHeight(int value);
+
+		virtual void SetTextAlign(Align value);
+
+		virtual void SetProperty(const std::string& key, const std::string& value);
+	};
+}

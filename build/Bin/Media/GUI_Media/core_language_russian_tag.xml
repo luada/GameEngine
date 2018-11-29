@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GUI>
+	<Tag name="GUI_MessageBox_Ok">Ok</Tag>
+	<Tag name="GUI_MessageBox_Yes">Да</Tag>
+	<Tag name="GUI_MessageBox_No">Нет</Tag>
+	<Tag name="GUI_MessageBox_Abort">Отмена</Tag>
+	<Tag name="GUI_MessageBox_Retry">Повторить</Tag>
+	<Tag name="GUI_MessageBox_Ignore">Пропустить</Tag>
+	<Tag name="GUI_MessageBox_Cancel">Отмена</Tag>
+	<Tag name="GUI_MessageBox_Try">Повторить</Tag>
+	<Tag name="GUI_MessageBox_Continue">Продолжить</Tag>
+</GUI>

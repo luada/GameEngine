@@ -1,0 +1,32 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Instance.h"
+$#include "XmlDocument.h"
+$#include "Delegate.h"
+
+namespace GUI
+{
+
+	class LanguageManager
+	{
+	public:
+		static LanguageManager& Instance();
+
+		bool Load(const std::string& file);
+
+		void SetCurrentLanguage(const std::string& name);
+
+		const std::string& GetCurrentLanguage();
+
+		UString ReplaceTags(const UString& line);
+
+		UString GetTag(const UString& tag);
+
+		void AddUserTag(const UString& tag, const UString& replace);
+
+		void ClearUserTags();
+
+		bool LoadUserTags(const std::string& file);
+	};
+}

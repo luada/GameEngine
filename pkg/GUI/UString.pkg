@@ -1,0 +1,57 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Types.h"
+$#include "Diagnostic.h"
+$#include "LogManager.h"
+$#include <iterator>
+$#include <string>
+$#include <stdexcept>
+
+namespace GUI
+{
+
+	class UString
+	{
+	public:
+		UString(const char* c_str);
+
+		UString(const char* c_str, size_type length);
+
+		~UString();
+
+		size_type size() const;
+
+		size_type max_size() const;
+
+		void reserve(size_type size);
+
+		void resize(size_type num, const code_point& val = 0);
+
+		void swap(UString& from);
+
+		bool empty() const;
+
+		void clear();
+
+		UString substr(size_type index, size_type num = ~(size_t)0) const;
+
+		void push_back(char val);
+
+		const char* AsUTF8_c_str() const;
+
+		UString& append(const UString& str);
+
+		UString& append(const char* c_str, size_type num);
+
+		int compare(const UString& str) const;
+
+		int compare(size_type index, size_type length, const UString& str, size_type index2, size_type length2) const;
+
+		size_type find(const UString& str, size_type index = 0) const;
+
+		size_type rfind(const UString& str, size_type index = 0) const;
+
+		code_point& operator[](size_type index);
+	};
+}

@@ -1,0 +1,23 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "WidgetDefines.h"
+$#include "Any.h"
+
+namespace GUI
+{
+
+	class UserData
+	{
+	public:
+		void SetUserString(const std::string& key, const std::string& value);
+
+		const std::string& GetUserString(const std::string& key);
+
+		bool ClearUserString(const std::string& key);
+
+		bool IsUserString(const std::string& key);
+
+		void ClearUserStrings();
+	};
+}

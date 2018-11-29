@@ -1,0 +1,42 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Window.h"
+$#include "ResourceImageSet.h"
+$#include "EventPair.h"
+$#include "MessageStyle.h"
+$#include "ControllerFadeAlpha.h"
+
+namespace GUI
+{
+
+	class Message : public Window
+	{
+	public:
+		void SetMessageText(const UString& value);
+
+		MessageBoxStyle AddButtonName(const UString& name);
+
+		void SetSmoothShow(bool value);
+
+		const std::string& GetDefaultLayer();
+
+		void SetMessageIcon(MessageBoxStyle value);
+
+		void SetWindowFade(bool value);
+
+		void endMessage(MessageBoxStyle result);
+
+		void endMessage();
+
+		void SetMessageButton(MessageBoxStyle value);
+
+		void SetMessageStyle(MessageBoxStyle value);
+
+		void SetMessageModal(bool value);
+
+		static GUI::Message* CreateMessageBox(const std::string& skin, const UString& caption, const UString& message, MessageBoxStyle style = MessageBoxStyle::Ok | MessageBoxStyle::IconDefault, const std::string& layer = "", bool modal = true, const std::string& button1 = "", const std::string& button2 = "", const std::string& button3 = "", const std::string& button4 = "");
+
+		virtual void SetProperty(const std::string& key, const std::string& value);
+	};
+}

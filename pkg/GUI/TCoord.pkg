@@ -1,0 +1,63 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "TPoint.h"
+$#include "TSize.h"
+
+namespace GUI
+{
+
+	namespace types
+	{
+
+		struct TCoord
+		{
+			TOLUA_TEMPLATE_BIND(T,int,float)
+			T left, top, width, height;
+
+			TCoord();
+
+			TCoord(T const& left, T const& top, T const& width, T const& height);
+
+			TCoord(TCoord<T> const& obj);
+
+			TCoord(TPoint<T> const& point, TSize<T> const& size);
+
+			TCoord<T> operator-(TCoord<T> const& obj) const;
+
+			TCoord<T> operator-(TPoint<T> const& obj) const;
+
+			TCoord<T> operator-(TSize<T> const& obj) const;
+
+			TCoord<T> operator+(TCoord<T> const& obj) const;
+
+			TCoord<T> operator+(TPoint<T> const& obj) const;
+
+			TCoord<T> operator+(TSize<T> const& obj) const;
+
+			bool operator==(TCoord<T> const& obj) const;
+
+			T Right() const;
+
+			T Bottom() const;
+
+			void Clear();
+
+			void Set(T const& left, T const& top, T const& width, T const& height);
+
+			void Swap(TCoord<T>& value);
+
+			bool Empty() const;
+
+			TPoint<T> Point() const;
+
+			TSize<T> Size() const;
+
+			bool Inside(const TPoint<T>& value) const;
+
+			std::string Print() const;
+
+			static TCoord<T> Parse(const std::string& value);
+		};
+	}
+}

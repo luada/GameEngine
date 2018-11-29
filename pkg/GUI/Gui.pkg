@@ -1,0 +1,49 @@
+//This file is created by AutoWrapLua.exe
+
+$#include "Prerequest.h"
+$#include "Types.h"
+$#include "Instance.h"
+$#include "XmlDocument.h"
+$#include "IWidgetCreator.h"
+$#include "IUnlinkWidget.h"
+$#include "Widget.h"
+
+namespace GUI
+{
+
+	class Gui : public IWidgetCreator , public IUnlinkWidget
+	{
+	public:
+		static Gui& Instance();
+
+		Widget* CreateWidgetT(const std::string& type, const std::string& skin, const IntCoord& coord, Align align, const std::string& layer, const std::string& name = "");
+
+		Widget* CreateWidgetT(const std::string& type, const std::string& skin, int left, int top, int width, int height, Align align, const std::string& layer, const std::string& name = "");
+
+		Widget* CreateWidgetRealT(const std::string& type, const std::string& skin, const FloatCoord& coord, Align align, const std::string& layer, const std::string& name = "");
+
+		Widget* CreateWidgetRealT(const std::string& type, const std::string& skin, float left, float top, float width, float height, Align align, const std::string& layer, const std::string& name = "");
+
+		const IntSize& GetViewSize() const;
+
+		int GetViewWidth();
+
+		int GetViewHeight();
+
+		void DestroyWidget(Widget* widget);
+
+		Widget* findWidgetT(const std::string& name, bool _throw = true);
+
+		void SetVisiblePointer(bool visible);
+
+		bool IsVisiblePointer();
+
+		bool Load(const std::string& file);
+
+		void ResizeWindow(const IntSize& size);
+
+		void DestroyChildWidget(Widget* widget);
+
+		void DestroyAllChildWidget();
+	};
+}
